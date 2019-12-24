@@ -1,4 +1,4 @@
-server:
+﻿server:
   port: 8001
 spring:
   datasource:
@@ -17,3 +17,6 @@ eureka: #将接口服务放到eureka中
   client:
     service-url:
       defaultZone: http://localhost:8888/eureka,http://localhost:9999/eureka
+
+
+userService: userService_8001
