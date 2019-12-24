@@ -19,4 +19,4 @@ eureka: #将接口服务放到eureka中
       defaultZone: http://localhost:8888/eureka,http://localhost:9999/eureka
 
 
-userService: userService_8001
+userService: userService_8001_update
