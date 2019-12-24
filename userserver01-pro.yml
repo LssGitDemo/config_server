@@ -1,0 +1,19 @@
+server:
+  port: 8001
+spring:
+  datasource:
+    url: jdbc:mysql:///demodb
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  application:
+    name: userservice
+
+eureka: #将接口服务放到eureka中
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka,http://localhost:9999/eureka
